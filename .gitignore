@@ -1,0 +1,41 @@
+# ملفات البيئة الافتراضية
+venv/
+mod-env/
+__pycache__/
+*.pyc
+
+# ملفات التكوين
+.env
+.env.local
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# ملفات Docker
+.dockerenv
+docker-compose*.yml
+
+# ملفات النسخ الاحتياطي
+*.bak
+*.swp
+
+# ملفات السجلات
+*.log
+
+# ملفات المتصفح
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ملفات البناء
+build/
+dist/
+*.egg-info/
+
+# ملفات البيانات
+user_data/
